@@ -1,0 +1,76 @@
+#nombreEspecie{
+    color: darkgray;
+    font-size: 90px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: url(img/r2.jpg);
+    background-size: cover;
+
+}
+.caja{
+    padding-left: 10px;
+    margin: 10px;
+    width: 500px;
+    min-height: 70px;
+    height: fit-content;
+    text-align: left;
+    color: darkgray;
+
+}
+.caja:hover{
+    overflow: auto;
+
+}
+.caja a{
+    color: darkgray;
+    text-decoration: none;
+}
+
+a{
+    color: darkgray;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.inicio{
+    position: absolute;
+    bottom: 60px;
+}
+
+#inicio{
+    position: absolute;
+    bottom:30px;
+}
+
+
+body div ul li{
+    justify-content: space-around;
+    font-size: 10px;
+}
+
+.datosEspecie{
+    color: darkgray;
+    text-align: center;
+    position: relative;
+    margin-top: 100px;
+    height: 100px;
+    align-content: flex-start;
+    width: 100%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+}
+.cabecera{
+    font-size: 13px;
+    color: darkgray;
+    border: hidden;
+    position: absolute;
+    bottom: 90px;
+    text-align: left;
+    padding: 0;
+}

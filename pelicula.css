@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(img/fondoestrella.webp);
+    background-size: cover;
+    font-family: sans-serif;
+}
+.flex ul li {
+    display:inline-block;
+    float:left;
+    vertical-align: top;
+    width: 50%;
+}
+body div ul li{
+    justify-content: space-around;
+    font-size: 10px;
+}
+#nombrePelicula{
+    color: darkgray;
+    font-size: 90px;
+}
+#intro p{
+    color: darkgray;
+    font-size: 25px;
+    text-align: justify;
+}
+.datosPelicula{
+    position: relative;
+    margin-top: 100px;
+    height: 600px;
+    align-content: flex-start;
+    width: 90%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right:auto;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.cabecera{
+    font-size: 20px;
+    border: darkgray;
+    position: absolute;
+    bottom: 590px;
+    padding: 0;
+}
+.caja{
+    padding-left: 10px;
+    margin: 10px;
+    width: 500px;
+    min-height: 70px;
+    height: fit-content;
+    text-align: left;
+    color: darkgray;
+
+}
+.caja:hover{
+    overflow: auto;
+
+}
+.caja a{
+    color: darkgray;
+    text-decoration: none;
+}
+
+a{
+    color: darkgray;
+}
+a:hover{
+    text-decoration: underline;
+}
+#inicio{
+    position: absolute;
+    bottom:30px;
+}
+
+.inicio{
+    position: absolute;
+    bottom: 60px;
+}
